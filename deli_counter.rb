@@ -15,5 +15,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, string)
-  
+  katz_deli = katz_deli + string
+  puts katz_deli
 end
