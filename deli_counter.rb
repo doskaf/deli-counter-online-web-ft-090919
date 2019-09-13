@@ -16,9 +16,5 @@ end
 
 def take_a_number(katz_deli, string)
   katz_deli << string
-  counter = 1
-  katz_deli.each do |name|
-    puts "Welcome, #{name}. You are number #{counter} in line."
-    counter += 1
-  end
+  puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
 end
