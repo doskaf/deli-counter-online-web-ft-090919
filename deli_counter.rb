@@ -15,9 +15,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, string)
-  new_array = katz_deli << string
+  katz_deli << string
   counter = 1
-  new_array.each do |name|
+  katz_deli.each do |name|
     puts "Welcome, #{name}. You are number #{counter} in line."
     counter += 1
   end
